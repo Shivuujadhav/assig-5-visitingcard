@@ -1,0 +1,227 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+  }
+ 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(198, 196, 196);
+}
+.maincontainer{
+  position: relative;
+  width: 90mm;
+  height: 113mm;
+  margin: 5% auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8mm;
+   /* border: 0.1px solid gray ;  */
+}
+.container {
+  width: 89.7mm;
+  height: 51mm;
+  position: absolute;
+  top: 0mm;
+  left: 0mm;
+  overflow: hidden;
+  background-color: white;
+}
+.front-line{
+  position: absolute;
+  height: 0.3mm;
+  width: 16mm;
+  background-color: black;
+  top: 17.5mm;
+  right: 0mm;
+}
+.container .front-side-logo{
+  position: absolute;
+  margin-top: 4mm;
+  margin-left: 14mm;
+}
+ .s1{
+     float:left;
+    /* border: 2px solid lightgray; */
+    height: 400px;
+    width: 50%;
+    /* background-color: lightgray; */
+} 
+ .QR-code-Logo{
+  position: absolute;
+  border: 1px solid red;
+  padding: 0;
+  margin: 0;
+  top: 25mm;
+  left: 15mm;
+}
+.left-section {
+   padding-left: 5px;
+   position: absolute;
+   
+}
+.s2{
+    float:right;
+    /*border: 2px solid red;*/
+    height: 400px;
+    width: 50%;
+    /* background-color: lightgray; */
+}
+.right-section {
+    float: left;
+    width: 50%;
+    
+}
+.left-section h1 {
+     font-size: 1rem;
+    /* padding-left: 20%;
+    padding-top: 70px; */
+    margin-top: 15mm;
+    margin-left: 7mm; 
+}
+.left-section h2 {
+    font-size: 0.5rem;
+    margin-top: 0.5mm;
+    margin-left: 7mm;
+    /* padding-left: 20%; */
+    /* color: #fff; */
+}
+.right-section-1 {
+    /* position :absolute;
+    font-size: medium;
+    padding-left: 70px;
+    padding-top: 60px;
+    color: red; */
+    font-size: 0.8rem;
+    margin-top: 10mm;
+    margin-left: 7mm; 
+}
+.right-section-2 {
+  font-size: 2mm;
+  margin-top: 1mm;
+  margin-left: 7mm; 
+}
+.right-contents{
+  /* font-size: 2.5mm; */
+  margin-top: 0.5mm;
+  margin-left: 7mm;
+  text-align: justify;
+}
+.mobile-num{
+  font-size: 2.5mm;
+  position: absolute;
+  text-align: justify;
+  top: 24.8mm;
+  right: 10mm;
+  color: rgb(125, 122, 122);
+}
+.mail{
+  font-size: 2.5mm;
+  position: absolute;
+  text-align: justify;
+  top: 31.6mm;
+  right: 5mm;
+  color: rgb(125, 122, 122);
+}
+.address{
+  font-size: 2.5mm;
+  position: absolute;
+  text-align: justify;
+  top: 40mm;
+  right: 8.7mm;
+  color: rgb(125, 122, 122);
+}
+/* .right-section a {
+    text-decoration: none;
+    color: #0066cc;
+} */
+.container .left-bottom{
+  position: absolute;
+  height: 6mm;
+  width:49mm;
+  background-color: black;
+  transform: skewX(40deg);
+  padding-left: 0px;
+  bottom: 0mm;
+  left:-5mm;
+}
+ .right-bottom{
+  position: absolute;
+  height: 6mm;
+  width:49mm;
+  background-color: red;
+  transform: skewX(40deg);
+  padding-left: 0px;
+  bottom: 0mm;
+  right: -5mm;
+} 
+.container-2{
+  width: 100%;
+  height: 51mm;
+  position: absolute;
+  bottom:0mm;
+  overflow: hidden;
+  background-color: white;
+  }
+  .container-2 .left-line{
+   position: absolute;
+   height: 0.5mm;
+   width: 28mm;
+   background-color: red;
+   top: 23mm;
+   left: 0mm;
+  }
+  .container-2 .right-line{
+    position: absolute;
+   height: 0.5mm;
+   width: 32.5mm;
+   background-color: red;
+   top: 23mm;
+   right: 0mm;
+  }
+  .container-2 .left-box{
+  position: absolute;
+  height: 6mm;
+  width: 49mm;
+  background-color: red;
+  transform: skewX(-40deg);
+  bottom: 0mm;
+  left: -5mm;
+}
+.container-2 .right-box{
+  position: absolute;
+  height: 6mm;
+  width: 49mm;
+  background-color: black;
+  transform: skewX(-40deg);
+  bottom: 0mm;
+  right: -5mm;
+} 
+.container-2 .back-side-logo{
+  position: absolute;
+  top: 9mm;
+  left: 40%;
+}
+.container-2 .back-side-contents-1 h1{
+  position: absolute;
+  top: 20mm;
+  left: 34%;
+  font-size: 1rem;
+}
+.container-2 .back-side-contents-1 h2{
+  position: absolute;
+  top: 25mm;
+  left: 35%;
+  font-size: 0.5rem;
+}
+.container-2 .back-side-contents-2{
+  position: absolute;
+  top: 40mm;
+  left: 33%;
+  font-size: 0.4rem;
+}
